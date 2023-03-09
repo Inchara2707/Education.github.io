@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>University Website Design</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="./eduford_img/eduford_img/logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+                <li><a href="./courses.html">COURSE</a></li>
+                <li><a href="./blog.html">BLOG</a></li>
+                <li><a href="">CONTACT US</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"  onclick="showMenu()"></i>
+
+    </nav>
+   <h1>Our Certificate & Online Programs For</h1>
+</section>
+
+<!-- blog page content -->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="./eduford_img/eduford_img/certificate.jpg" alt="">
+            <h2>Our Certificate & Online Programs For 2021</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                elit. Accusantium doloribus amet enim facilis
+                voluptatem eos nulla veniam molestias nobis tempora
+                libero ipsum, repudiandae ipsa soluta voluptate
+                dolorem sapiente repellendus error temporibus. Eveniet
+                impedit itaque repellat, voluptatem animi reiciendis.
+                Adipisci doloremque odio aperiam maxime incidunt
+                voluptatibus nesciunt tempore rem nostrum commodi.</p>
+            <br />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quasi excepturi quas voluptates rerum perspiciatis
+                fuga magni beatae deleniti sequi ab asperiores ratione
+                nihil dolore, voluptate temporibus, dolores omnis
+                veniam voluptatem. Incidunt, sit optio ipsum magni
+                necessitatibus quo animi, facilis ea culpa dolorum
+                corrupti maiores at consectetur vero exercitationem
+                provident, quia assumenda quae nihil. Sapiente minima
+                quisquam quidem itaque. Quidem aperiam mollitia fugit
+                sit deleniti labore quo sapiente doloribus ex sunt!</p>
+            <br />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vel harum quibusdam molestiae aut corporis exercitationem 
+                quia qui, quaerat, cum rerum ducimus iure libero excepturi 
+                officiis quo sed! Earum libero mollitia porro, ratione iste 
+                asperiores. A dolore saepe quos ipsum explicabo.
+                Quasi excepturi quas voluptates rerum perspiciatis
+                fuga magni beatae deleniti sequi ab asperiores ratione
+                nihil dolore, voluptate temporibus, dolores omnis
+                veniam voluptatem. Incidunt, sit optio ipsum magni
+                necessitatibus quo animi, facilis ea culpa dolorum
+                corrupti maiores at consectetur vero exercitationem
+                provident, quia assumenda quae nihil. Sapiente minima
+                quisquam quidem itaque. Quidem aperiam mollitia fugit
+                sit deleniti labore quo sapiente doloribus ex sunt!</p>
+            <br />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laborum quibusdam aperiam architecto libero vero optio
+                voluptatem, nulla velit eos magni incidunt odit consequuntur
+                voluptatibus eius excepturi. Dicta similique qui,
+                reprehenderit beatae nostrum magni dolores a.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Email">
+                        <textarea rows="5" placeholder="Your Comments"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+        
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- facilities -->
+
+<!-- footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Tempora est dolor delectus <br/>laboriosam inventore ullam esse
+          ducimus molestiae fuga temporibus.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+        
+</section>
+<!-- javascript for toggle menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+        
+    }
+</script>
+
+</body>
+</html>
